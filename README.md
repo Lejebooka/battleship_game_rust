@@ -28,7 +28,7 @@ This project is a console-based implementation of the classic Battleship game. I
    git clone https://github.com/Lejebooka/battleship_game_rust.git
    cd battleship_game_rust
    cargo run
-   '''
+   
 
 ## License
 
