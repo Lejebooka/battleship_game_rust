@@ -32,4 +32,4 @@ This project is a console-based implementation of the classic Battleship game. I
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
