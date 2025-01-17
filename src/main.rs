@@ -24,13 +24,14 @@ struct Board {
 }
 
 impl Board {
+    // Function to initialize a new game board
     fn new() -> Self {
         Board {
             grid: [[CellState::Empty; BOARD_SIZE]; BOARD_SIZE],
             ships: Vec::new(),
         }
     }
-
+    // Function to place a ship on the board
     fn place_ship(&mut self, size: usize) {
         let mut rng = rand::thread_rng();
 
